@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "叠图 · 本地 UI 对比",
+  "version": "1.0.0",
+  "description": "将本地设计图叠加在当前网页，调整透明度、缩放和位置，进行 UI 对比走查。图片不上传。",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_title": "叠图 · 本地 UI 对比",
+    "default_popup": "popup.html"
+  }
+}
